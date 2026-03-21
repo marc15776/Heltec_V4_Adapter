@@ -1,4 +1,4 @@
-#Heltec LoRa V4 Adapter
+# Heltec LoRa V4 Adapter
 
 This is a fork from [kiu/lofence](https://github.com/kiu/lofence)
 

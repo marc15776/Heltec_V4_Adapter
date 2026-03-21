@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "lofence-rescue")(type "KiCad")(uri "${KIPRJMOD}/lofence-rescue.kicad_sym")(options "")(descr ""))
+)
