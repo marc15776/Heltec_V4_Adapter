@@ -464,6 +464,857 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "WIFI_KIT_32__V3_:WIFI_KIT_32__V3_"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -25.4 23.368 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "WIFI_KIT_32__V3_"
+				(at -25.4 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "WIFI_KIT_32__V3_:MODULE_WIFI_KIT_32__V3_"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Heltec Automation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "10.2mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/WIFI%20KIT%2032%20(V3)/Heltec+Automation/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "Rev 1.1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/WIFI%20KIT%2032%20(V3)/Heltec+Automation/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "WIFI KIT 32 (V3)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "*GPIO input only\n*ADC preamplifier\n*GPIOs are 3.3V tolerant only"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Heltec Automation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "WIFI_KIT_32__V3__1_0"
+				(rectangle
+					(start -25.4 -22.86)
+					(end 25.4 22.86)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -30.48 20.32 0)
+					(length 5.08)
+					(name "GND_J2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -30.48 17.78 0)
+					(length 5.08)
+					(name "5V"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -30.48 15.24 0)
+					(length 5.08)
+					(name "VE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -30.48 15.24 0)
+					(length 5.08)
+					(hide yes)
+					(name "VE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 12.7 0)
+					(length 5.08)
+					(name "U0RXD/GPIO44/CP2102_TX"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 10.16 0)
+					(length 5.08)
+					(name "U0TXD/GPIO43/CP2102_RX"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 7.62 0)
+					(length 5.08)
+					(name "RST/RST_SW"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 5.08 0)
+					(length 5.08)
+					(name "GPIO0/USER_SW"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 2.54 0)
+					(length 5.08)
+					(name "GPIO21/OLED_RST"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 0 0)
+					(length 5.08)
+					(name "GPIO20/U1CTS/ADC2_CH9/CLK_OUT1/USB_D+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 -2.54 0)
+					(length 5.08)
+					(name "GPIO19/U1RST/ADC2_CH9/CLK_OUT2/USB_D-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 -5.08 0)
+					(length 5.08)
+					(name "GPIO7/ADC1_CH6/TOUCH7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 -7.62 0)
+					(length 5.08)
+					(name "GPIO6/ADC1_CH5/TOUCH6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 -10.16 0)
+					(length 5.08)
+					(name "GPIO5/ADC1_CH4/TOUCH5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 -12.7 0)
+					(length 5.08)
+					(name "GPIO4/ADC1_CH3/TOUCH4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 -15.24 0)
+					(length 5.08)
+					(name "GPIO3/ADC1_CH2/TOUCH3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 -17.78 0)
+					(length 5.08)
+					(name "GPIO2/ADC1_CH1/TOUCH2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 -20.32 0)
+					(length 5.08)
+					(name "GPIO1/ADC1_CH0/VBAT_READ/TOUCH1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "WIFI_KIT_32__V3__2_0"
+				(rectangle
+					(start -27.94 -22.86)
+					(end 27.94 22.86)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -33.02 20.32 0)
+					(length 5.08)
+					(name "GND_J3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -33.02 17.78 0)
+					(length 5.08)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -33.02 17.78 0)
+					(length 5.08)
+					(hide yes)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 15.24 0)
+					(length 5.08)
+					(name "GPIO26/SPICS1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 12.7 0)
+					(length 5.08)
+					(name "GPIO48"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 10.16 0)
+					(length 5.08)
+					(name "GPIO47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 7.62 0)
+					(length 5.08)
+					(name "GPIO33/SPIIO4/FSPIHD/SUBSPIHD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 5.08 0)
+					(length 5.08)
+					(name "GPIO34/SPIIO5/FSPICS0/SUBSPICS0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 2.54 0)
+					(length 5.08)
+					(name "GPIO35/SPIIO6/FSPID/SUBSPID/LED_WRITE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 0 0)
+					(length 5.08)
+					(name "GPIO36/SPIIO7/FSPICLK/SUBSPICLK/VEXT_CTRL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 -2.54 0)
+					(length 5.08)
+					(name "GPIO37/SPIDQS/FSPIQ/SUBSPIQ/ADC_CTRL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 -5.08 0)
+					(length 5.08)
+					(name "GPIO38/FSPIWP/SUBSPIWP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 -7.62 0)
+					(length 5.08)
+					(name "GPIO39/MTCK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 -10.16 0)
+					(length 5.08)
+					(name "GPIO40/MTDO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 -12.7 0)
+					(length 5.08)
+					(name "GPIO41/MTDI"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 -15.24 0)
+					(length 5.08)
+					(name "GPIO42/MTMS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 -17.78 0)
+					(length 5.08)
+					(name "GPIO45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 -20.32 0)
+					(length 5.08)
+					(name "GPIO46"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lofence-rescue:BAV70LT-kiu"
 			(pin_names
 				(offset 1.016)
@@ -979,6 +1830,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Power OpAmp"
 		(exclude_from_sim no)
@@ -1300,6 +2276,16 @@
 			(type default)
 		)
 		(uuid "4594d10c-a661-465e-808c-7a8ba9fa453f")
+	)
+	(wire
+		(pts
+			(xy 128.27 100.33) (xy 128.27 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "490176d4-75cf-4074-ba0a-42910bc4957e")
 	)
 	(wire
 		(pts
@@ -1680,6 +2666,16 @@
 			(type default)
 		)
 		(uuid "cb82b825-25e7-4d49-b66e-bda9be1e91df")
+	)
+	(wire
+		(pts
+			(xy 128.27 101.6) (xy 135.89 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd3c36e-c603-489c-969c-0f81eae2e5f5")
 	)
 	(wire
 		(pts
@@ -4279,6 +5275,658 @@
 			(project ""
 				(path "/c74412b5-1737-489a-a2dc-99ec2ababc76"
 					(reference "MH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WIFI_KIT_32__V3_:WIFI_KIT_32__V3_")
+		(at 168.91 99.06 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19e75bd0-8733-4c9d-a606-37f0d06ca2e6")
+		(property "Reference" "U2"
+			(at 198.12 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WIFI_KIT_32__V3_"
+			(at 198.12 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "WIFI_KIT_32__V3:MODULE_WIFI_KIT_32__V3_"
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Heltec Automation"
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "10.2mm"
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/WIFI%20KIT%2032%20(V3)/Heltec+Automation/view-part/?ref=eda"
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev 1.1"
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/WIFI%20KIT%2032%20(V3)/Heltec+Automation/view-part/?ref=snap"
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "WIFI KIT 32 (V3)"
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "*GPIO input only\n*ADC preamplifier\n*GPIOs are 3.3V tolerant only"
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Heltec Automation"
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "J2_10"
+			(uuid "4acde354-5986-424d-aeb7-d6e27dbb31df")
+		)
+		(pin "J3_14"
+			(uuid "81f965d8-61f0-463e-946e-41c97ef8d925")
+		)
+		(pin "J3_15"
+			(uuid "02ac0962-8870-4e9e-aa19-a7fad7395984")
+		)
+		(pin "J3_6"
+			(uuid "513e5cd4-0286-47af-9f21-477d707f5125")
+		)
+		(pin "J3_16"
+			(uuid "6f467cc2-1c84-4fc8-bc7d-4849bc93e5eb")
+		)
+		(pin "J3_9"
+			(uuid "827fd397-9be8-4213-81c6-1f072349ab57")
+		)
+		(pin "J3_12"
+			(uuid "17dfa6bd-b209-4dbc-9123-d2d8bde35bc2")
+		)
+		(pin "J3_5"
+			(uuid "27f3c8bd-c28e-4eea-ba30-b5a3e4555bf6")
+		)
+		(pin "J3_13"
+			(uuid "107637a7-bca6-41b1-a81b-a2f4e71c70f7")
+		)
+		(pin "J3_7"
+			(uuid "2dcabde9-6cb7-45d0-86ab-0b1c671299a4")
+		)
+		(pin "J3_8"
+			(uuid "aa7465e4-7161-4a53-b813-4d703a26803a")
+		)
+		(pin "J3_11"
+			(uuid "53afea56-3243-4a9b-97ad-5742b35bb4f1")
+		)
+		(pin "J3_10"
+			(uuid "4e4cadbe-21e0-4fbe-9226-f2a0a3bc1e58")
+		)
+		(pin "J2_12"
+			(uuid "8f618d24-d0b7-4f2f-a0a8-bab5ff56d1d9")
+		)
+		(pin "J2_16"
+			(uuid "98a856a7-8a8f-487f-a389-6fae57d1613a")
+		)
+		(pin "J2_15"
+			(uuid "fefc2991-91d4-4871-8402-1e0f4a6feb9e")
+		)
+		(pin "J2_17"
+			(uuid "c25152da-b09b-455a-9cd4-d82e29bb1b55")
+		)
+		(pin "J2_18"
+			(uuid "712cb0b0-6396-41d1-85dc-0a808fc48857")
+		)
+		(pin "J3_4"
+			(uuid "e35e4a90-b4ba-4234-8760-db3c238fef11")
+		)
+		(pin "J2_13"
+			(uuid "a33ed802-f92a-41f5-b110-05baba98041d")
+		)
+		(pin "J2_11"
+			(uuid "3da19a6a-0004-46fb-9226-b8ab36c8d2d3")
+		)
+		(pin "J3_1"
+			(uuid "9142dbb3-cf6e-406c-b0af-bde8fe132255")
+		)
+		(pin "J2_14"
+			(uuid "77f298a1-adb9-4d11-be74-a1f1563fff4d")
+		)
+		(pin "J3_2"
+			(uuid "4c3b3434-9cc0-49a6-950c-464d9d4ddafe")
+		)
+		(pin "J3_3"
+			(uuid "26239df0-7694-48b7-80de-4b55a1a66428")
+		)
+		(pin "J3_18"
+			(uuid "a665c145-f7d2-4b68-8f56-46c6d01eafd3")
+		)
+		(pin "J3_17"
+			(uuid "0fadc8db-279b-47bd-a371-a80ff16ca1a6")
+		)
+		(pin "J2_4"
+			(uuid "7a59ddaa-c0aa-4956-b818-e30685ac01e1")
+		)
+		(pin "J2_5"
+			(uuid "e166716f-e177-4e01-8ed6-48831a1f18f0")
+		)
+		(pin "J2_2"
+			(uuid "309e6430-4847-4f3a-b435-733a65923718")
+		)
+		(pin "J2_6"
+			(uuid "5f1e4ccc-ab08-437c-9b23-7cdc68d782a6")
+		)
+		(pin "J2_3"
+			(uuid "e4619b1c-05a7-4bc7-aea3-8303e2165467")
+		)
+		(pin "J2_7"
+			(uuid "d52f8288-c10e-43c3-a788-47236cd480d4")
+		)
+		(pin "J2_8"
+			(uuid "6ea6f3bd-8e0f-44e0-b735-d8a2d3915b14")
+		)
+		(pin "J2_9"
+			(uuid "edd2f2b8-4088-449b-9468-cbda6821d138")
+		)
+		(pin "J2_1"
+			(uuid "6e57a73b-7e13-4a11-8ed5-6845c052ad13")
+		)
+		(instances
+			(project ""
+				(path "/c74412b5-1737-489a-a2dc-99ec2ababc76"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WIFI_KIT_32__V3_:WIFI_KIT_32__V3_")
+		(at 166.37 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dc4168e-0a51-488e-b237-12f5d1f8a693")
+		(property "Reference" "U2"
+			(at 193.04 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WIFI_KIT_32__V3_"
+			(at 193.04 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "WIFI_KIT_32__V3:MODULE_WIFI_KIT_32__V3_"
+			(at 166.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Heltec Automation"
+			(at 166.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "10.2mm"
+			(at 166.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 166.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 166.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/WIFI%20KIT%2032%20(V3)/Heltec+Automation/view-part/?ref=eda"
+			(at 166.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 166.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev 1.1"
+			(at 166.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/WIFI%20KIT%2032%20(V3)/Heltec+Automation/view-part/?ref=snap"
+			(at 166.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "WIFI KIT 32 (V3)"
+			(at 166.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "*GPIO input only\n*ADC preamplifier\n*GPIOs are 3.3V tolerant only"
+			(at 166.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 166.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Heltec Automation"
+			(at 166.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "J2_10"
+			(uuid "4acde354-5986-424d-aeb7-d6e27dbb31df")
+		)
+		(pin "J3_14"
+			(uuid "81f965d8-61f0-463e-946e-41c97ef8d925")
+		)
+		(pin "J3_15"
+			(uuid "02ac0962-8870-4e9e-aa19-a7fad7395984")
+		)
+		(pin "J3_6"
+			(uuid "513e5cd4-0286-47af-9f21-477d707f5125")
+		)
+		(pin "J3_16"
+			(uuid "6f467cc2-1c84-4fc8-bc7d-4849bc93e5eb")
+		)
+		(pin "J3_9"
+			(uuid "827fd397-9be8-4213-81c6-1f072349ab57")
+		)
+		(pin "J3_12"
+			(uuid "17dfa6bd-b209-4dbc-9123-d2d8bde35bc2")
+		)
+		(pin "J3_5"
+			(uuid "27f3c8bd-c28e-4eea-ba30-b5a3e4555bf6")
+		)
+		(pin "J3_13"
+			(uuid "107637a7-bca6-41b1-a81b-a2f4e71c70f7")
+		)
+		(pin "J3_7"
+			(uuid "2dcabde9-6cb7-45d0-86ab-0b1c671299a4")
+		)
+		(pin "J3_8"
+			(uuid "aa7465e4-7161-4a53-b813-4d703a26803a")
+		)
+		(pin "J3_11"
+			(uuid "53afea56-3243-4a9b-97ad-5742b35bb4f1")
+		)
+		(pin "J3_10"
+			(uuid "4e4cadbe-21e0-4fbe-9226-f2a0a3bc1e58")
+		)
+		(pin "J2_12"
+			(uuid "8f618d24-d0b7-4f2f-a0a8-bab5ff56d1d9")
+		)
+		(pin "J2_16"
+			(uuid "98a856a7-8a8f-487f-a389-6fae57d1613a")
+		)
+		(pin "J2_15"
+			(uuid "fefc2991-91d4-4871-8402-1e0f4a6feb9e")
+		)
+		(pin "J2_17"
+			(uuid "c25152da-b09b-455a-9cd4-d82e29bb1b55")
+		)
+		(pin "J2_18"
+			(uuid "712cb0b0-6396-41d1-85dc-0a808fc48857")
+		)
+		(pin "J3_4"
+			(uuid "e35e4a90-b4ba-4234-8760-db3c238fef11")
+		)
+		(pin "J2_13"
+			(uuid "a33ed802-f92a-41f5-b110-05baba98041d")
+		)
+		(pin "J2_11"
+			(uuid "3da19a6a-0004-46fb-9226-b8ab36c8d2d3")
+		)
+		(pin "J3_1"
+			(uuid "9142dbb3-cf6e-406c-b0af-bde8fe132255")
+		)
+		(pin "J2_14"
+			(uuid "77f298a1-adb9-4d11-be74-a1f1563fff4d")
+		)
+		(pin "J3_2"
+			(uuid "4c3b3434-9cc0-49a6-950c-464d9d4ddafe")
+		)
+		(pin "J3_3"
+			(uuid "26239df0-7694-48b7-80de-4b55a1a66428")
+		)
+		(pin "J3_18"
+			(uuid "a665c145-f7d2-4b68-8f56-46c6d01eafd3")
+		)
+		(pin "J3_17"
+			(uuid "0fadc8db-279b-47bd-a371-a80ff16ca1a6")
+		)
+		(pin "J2_4"
+			(uuid "7a59ddaa-c0aa-4956-b818-e30685ac01e1")
+		)
+		(pin "J2_5"
+			(uuid "e166716f-e177-4e01-8ed6-48831a1f18f0")
+		)
+		(pin "J2_2"
+			(uuid "309e6430-4847-4f3a-b435-733a65923718")
+		)
+		(pin "J2_6"
+			(uuid "5f1e4ccc-ab08-437c-9b23-7cdc68d782a6")
+		)
+		(pin "J2_3"
+			(uuid "e4619b1c-05a7-4bc7-aea3-8303e2165467")
+		)
+		(pin "J2_7"
+			(uuid "d52f8288-c10e-43c3-a788-47236cd480d4")
+		)
+		(pin "J2_8"
+			(uuid "6ea6f3bd-8e0f-44e0-b735-d8a2d3915b14")
+		)
+		(pin "J2_9"
+			(uuid "edd2f2b8-4088-449b-9468-cbda6821d138")
+		)
+		(pin "J2_1"
+			(uuid "6e57a73b-7e13-4a11-8ed5-6845c052ad13")
+		)
+		(instances
+			(project ""
+				(path "/c74412b5-1737-489a-a2dc-99ec2ababc76"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 128.27 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a84e1d8-002b-4387-a8c3-2f27415d9f67")
+		(property "Reference" "#PWR01"
+			(at 128.27 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 128.27 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da79d6b4-d6db-43e1-a4d8-685a5ba3951c")
+		)
+		(instances
+			(project ""
+				(path "/c74412b5-1737-489a-a2dc-99ec2ababc76"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
