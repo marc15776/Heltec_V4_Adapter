@@ -1,4 +1,4 @@
-27084588771711299
+27088137001359780
 0_FPlibrary
 436333033816
 436333033816-3
@@ -63090,6 +63090,13 @@ GDT 3R-6
 0
 3
 3
+HHV1WSJT-73-10M
+RESAD4580W75L4100D850
+
+
+0
+2
+2
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -71679,6 +71686,13 @@ LSM6DSO16ISTR
 0
 14
 14
+Logo_Langhart
+BotPlate_lofence
+
+
+0
+0
+0
 Logo_Langhart
 HV_Warning_10mm_Silkscreen
 
