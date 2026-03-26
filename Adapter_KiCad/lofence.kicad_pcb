@@ -376,11 +376,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005d0af68e")
-		(at 156.845 130 180)
+		(at 142.9 133.67 90)
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R1"
-			(at 7.62 -3.37 0)
+			(at 7.62 -3.37 90)
 			(layer "F.SilkS")
 			(uuid "952ca0ec-2054-430e-ba2e-76a16fbef67a")
 			(effects
@@ -391,7 +391,7 @@
 			)
 		)
 		(property "Value" "10M 6KV"
-			(at 7.62 3.37 0)
+			(at 7.62 3.37 90)
 			(layer "F.Fab")
 			(uuid "d30ebd15-1c66-49cf-bba5-23d6f709ba72")
 			(effects
@@ -402,7 +402,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0ab7a6a5-5cc0-44e1-8c68-c3e0390ab605")
@@ -414,7 +414,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "70701b13-d1c2-4cb9-b443-6afdb180bf3e")
@@ -504,7 +504,7 @@
 			(uuid "2630790e-481c-428d-9f66-9cf899d7f6d1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.62 0 0)
+			(at 7.62 0 90)
 			(layer "F.Fab")
 			(uuid "f8fedf74-5f6d-480b-bc6d-4c4618d6e806")
 			(effects
@@ -515,7 +515,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0 180)
+			(at 0 0 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -525,7 +525,7 @@
 			(uuid "58006112-d6cc-44fc-9c80-b575343b1187")
 		)
 		(pad "2" thru_hole circle
-			(at 15.24 0 180)
+			(at 15.24 0 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -550,11 +550,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005d0af6a3")
-		(at 141.605 124.125)
+		(at 148.775 118.43 -90)
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R2"
-			(at 7.62 -3.37 0)
+			(at 7.62 -3.37 90)
 			(layer "F.SilkS")
 			(uuid "2e906b34-8c65-42cf-99ee-dee5fe797877")
 			(effects
@@ -565,7 +565,7 @@
 			)
 		)
 		(property "Value" "10M 6KV"
-			(at 7.62 3.37 0)
+			(at 7.62 3.37 90)
 			(layer "F.Fab")
 			(uuid "bf6fa0b8-519f-4244-87d5-b08e18cb041d")
 			(effects
@@ -576,7 +576,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dbe45b78-52ae-41f0-b4a4-4a35afaa2ff8")
@@ -588,7 +588,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "59bc9f6d-faf7-483c-aba9-b8b78c106320")
@@ -678,7 +678,7 @@
 			(uuid "873bb073-8c16-4fba-8e39-8c6fcf2b7a04")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.62 0 0)
+			(at 7.62 0 90)
 			(layer "F.Fab")
 			(uuid "b8a9bb92-4deb-4b2b-86d7-1d5a57898672")
 			(effects
@@ -689,7 +689,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -699,7 +699,7 @@
 			(uuid "04101f07-9b99-4561-b63e-8160bdeea442")
 		)
 		(pad "2" thru_hole circle
-			(at 15.24 0)
+			(at 15.24 0 270)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -4146,36 +4146,52 @@
 		(uuid "f3abd1b5-445a-4332-ae08-fe5c7231436b")
 	)
 	(segment
-		(start 135 130)
-		(end 141.605 130)
+		(start 138.27 118.43)
+		(end 142.9 118.43)
 		(width 1.4)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "9ca4eaea-9244-4a7f-b694-17bcd4fc2ed7")
+		(uuid "02286a26-0c57-4c44-bdf8-736abcbdfad0")
 	)
 	(segment
-		(start 156.845 130)
-		(end 156.845 124.125)
+		(start 135 121.7)
+		(end 138.27 118.43)
+		(width 1.4)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "6c9fafee-af3a-47f3-b55d-69f83e813aa0")
+	)
+	(segment
+		(start 135 130)
+		(end 135 121.7)
+		(width 1.4)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "ba065e55-b427-41da-8903-d89fac0a22d3")
+	)
+	(segment
+		(start 142.9 133.67)
+		(end 148.775 133.67)
 		(width 1.4)
 		(layer "F.Cu")
 		(net 3)
 		(uuid "a0e97de8-4c16-43c7-97e5-da108b909850")
 	)
 	(segment
-		(start 153.575 118.425)
-		(end 147.305 118.425)
-		(width 1.2)
+		(start 153.57 118.43)
+		(end 153.575 118.425)
+		(width 1)
 		(layer "F.Cu")
 		(net 4)
-		(uuid "508cbf72-0f62-41ec-891b-c3e65625ac10")
+		(uuid "3675bb95-77a4-4ee1-9211-55826d8947de")
 	)
 	(segment
-		(start 147.305 118.425)
-		(end 141.605 124.125)
-		(width 1.2)
+		(start 148.775 118.43)
+		(end 153.57 118.43)
+		(width 1)
 		(layer "F.Cu")
 		(net 4)
-		(uuid "a98d2038-aa95-4058-9429-eedab2edccb6")
+		(uuid "dd25da91-0036-442a-8ddb-93698185b81e")
 	)
 	(segment
 		(start 154.4 81.3875)
